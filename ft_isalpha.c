@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/23 15:22:19 by vsimeono          #+#    #+#             */
-/*   Updated: 2021/09/24 19:56:50 by vsimeono         ###   ########.fr       */
+/*   Updated: 2021/10/02 20:35:34 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,15 +18,3 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-
-// int     ft_isalpha(int c);
-
-// int     main()
-// {
-//     int     i;
-//     char    c;
-
-//     i = 1;
-//     c = 'a';
-//     printf("%d", ft_isalpha(i));
-// }

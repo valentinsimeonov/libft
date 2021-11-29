@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/26 16:40:30 by vsimeono          #+#    #+#             */
-/*   Updated: 2021/09/24 19:59:21 by vsimeono         ###   ########.fr       */
+/*   Updated: 2021/10/02 20:36:01 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,16 +18,3 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-
-// int     ft_isprint(int c);
-
-// int		main()
-// {d
-//     int     i;
-//     char    c;
-
-//     i = 44;
-//     c = 'A';
-
-//     printf("%d", ft_isprint(i));
-// }

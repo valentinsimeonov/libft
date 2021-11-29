@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/02 13:37:39 by vsimeono          #+#    #+#             */
-/*   Updated: 2021/09/24 19:52:19 by vsimeono         ###   ########.fr       */
+/*   Updated: 2021/10/02 20:34:41 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,18 +25,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-
-// int		main()
-// {
-// 	int			i;
-// 	char		str[4];
-
-// 	i = 3;
-// 	str[0] = 'A';
-// 	str[1] = 'B';
-// 	str[2] = 'C';
-// 	str[3] = '\0';
-
-// 	ft_bzero(str, i);
-// 	printf("%c", str[2]);
-// }

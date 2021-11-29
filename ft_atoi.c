@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/06 12:21:05 by vsimeono          #+#    #+#             */
-/*   Updated: 2021/09/24 19:49:53 by vsimeono         ###   ########.fr       */
+/*   Updated: 2021/10/02 20:34:30 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,13 +40,3 @@ int	ft_atoi(const char *str)
 	}
 	return (num * sign);
 }
-
-// int		main()
-// {
-// 	char	str[] = "1234";
-// 	char	str1[] = " 1234";
-// 	char	str2[] = "12 34";
-// 	char	str3[] = "-12 34";
-
-// 	printf("%d", ft_atoi(str3));
-// }

@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/25 18:26:40 by vsimeono          #+#    #+#             */
-/*   Updated: 2021/09/25 16:34:07 by vsimeono         ###   ########.fr       */
+/*   Updated: 2021/10/02 20:35:28 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,17 +20,3 @@ int	ft_isalnum(int c)
 	}
 	return (0);
 }
-
-// int        ft_isalnum(int c);
-
-// int     main()
-// {
-//     int     i;
-//     char    c;
-
-//     i = 1;
-//     c = '|';
-
-//     printf("%d", ft_isalnum(c));
-// }
-// (c >= '0' && c <= '9')

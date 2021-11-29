@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/05 11:16:16 by vsimeono          #+#    #+#             */
-/*   Updated: 2021/10/02 19:59:37 by vsimeono         ###   ########.fr       */
+/*   Updated: 2021/10/02 20:35:18 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,9 @@
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
-	size_t	i;
 	size_t	lensrc;
 	size_t	buffer;
 
-	i = 0;
 	lensrc = ft_strlen(src);
 	if (dstsize != 0)
 	{

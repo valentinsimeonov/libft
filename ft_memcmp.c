@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/03 16:45:27 by vsimeono          #+#    #+#             */
-/*   Updated: 2021/09/24 20:02:35 by vsimeono         ###   ########.fr       */
+/*   Updated: 2021/10/02 20:37:28 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// int		main()
-// {
-// 	char	str1[] = "Fas est ab hoste doceri";
-// 	char	str2[] = "Fas est aA hoste doceri";
-// 	int		n;
-
-// 	n = 24;
-// 	printf("%d", ft_memcmp(str1, str2, n));
-// }

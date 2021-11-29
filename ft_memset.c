@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/01 17:07:17 by vsimeono          #+#    #+#             */
-/*   Updated: 2021/09/24 20:06:41 by vsimeono         ###   ########.fr       */
+/*   Updated: 2021/10/02 20:37:55 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,17 +26,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (p);
 }
-
-// int		main()
-// {
-// 	char	str[4];
-// 	str[0] = 'N';
-// 	str[1] = 'o';
-// 	str[2] = 'c';
-// 	str[3] = '\0';
-// 	ft_memset(str, 65, 1);
-// 	printf("%s", str);
-// // 	// printf("%s", ft_memset(str, 1, 15));
-// // 	// printf("%c", 'a');
-// // 	return (0);
-// }

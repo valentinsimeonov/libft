@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/02 19:53:49 by vsimeono          #+#    #+#             */
-/*   Updated: 2021/09/25 16:41:03 by vsimeono         ###   ########.fr       */
+/*   Updated: 2021/11/03 14:58:43 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	if (dst > src)
 	{
 		while (len-- > 0)
-		{
 			*(d + len) = *(s + len);
-		}
 	}
 	else
 	{
@@ -40,32 +38,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (d);
 }
-
-// int		main()
-// {
-// 	char		src[11];
-// 	char		dst[4];
-// 	size_t		n;
-
-// 	src[0] = 'P';
-// 	src[1] = 'r';
-// 	src[2] = 'i';
-// 	src[3] = 'm';
-// 	src[4] = 'a';
-// 	src[5] = 'D';
-// 	src[6] = 'o';
-// 	src[7] = 'u';
-// 	src[8] = 'a';
-// 	src[9] = 'F';
-// 	src[10] = '\0';
-// 	dst[0] = 'B';
-// 	dst[1] = 'B';
-// 	dst[2] = 'B';
-// 	dst[3] = '\0';
-// 	n = 4;
-// 	ft_memmove(dst, src, n);
-// 	// ft_memcpy(dst, &src[0], n);
-// 	printf("%s\n", dst);
-// 	// printf("%s", src);
-
-// }

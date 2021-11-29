@@ -6,7 +6,7 @@
 /*   By: vsimeono <vsimeono@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/25 14:45:40 by vsimeono          #+#    #+#             */
-/*   Updated: 2021/09/24 19:58:37 by vsimeono         ###   ########.fr       */
+/*   Updated: 2021/10/02 20:35:48 by vsimeono         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,16 +20,3 @@ int	ft_isdigit(int c)
 	}
 	return (0);
 }
-
-// int     ft_isdigit(int c);
-
-// int     main()
-// {
-//     int     i;
-//     char    c;
-
-//     i = 1;
-//     c = 'A';
-
-//     printf("%d", ft_isdigit(i));
-// }
